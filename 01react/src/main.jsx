@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
 import NewTest from "./Test.jsx";
 import Hooks from "./Hooks.jsx";
-
+import "./index.css";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <App />

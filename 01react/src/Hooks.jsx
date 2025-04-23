@@ -24,8 +24,12 @@ function Hooks() {
 
   return (
     <>
-      <button onClick={addValue}>Add Value {counter}</button>
-      <button onClick={removeValue}>Remove Value {counter}</button>
+      <button className="border pl-6 pr-6" onClick={addValue}>
+        Add Value {counter}
+      </button>
+      <button className="border pl-6 pr-6 ml-5" onClick={removeValue}>
+        Remove Value {counter}
+      </button>
       <p>{message}</p>
     </>
   );
