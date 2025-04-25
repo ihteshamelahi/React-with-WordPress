@@ -1,6 +1,6 @@
 import React from "react";
 
-function App() {
+function PasswordProject() {
   return (
     <>
       <h1 className="text-3xl font-bold underline mb-5">
@@ -10,4 +10,4 @@ function App() {
   );
 }
 
-export default App;
+export default PasswordProject;
