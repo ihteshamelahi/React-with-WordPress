@@ -1,9 +1,1 @@
 @import "tailwindcss";
-.full-body {
-  height: 100vh;
-  text-align: center;
-  padding: 30px;
-}
-.heading h1 {
-  color: white;
-}

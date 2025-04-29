@@ -10,6 +10,6 @@ import NewBg from "./components/NewBg.jsx";
 import PasswordProject from "./components/PasswordProject.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <PasswordProject />
+    <App />
   </StrictMode>
 );
