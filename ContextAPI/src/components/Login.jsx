@@ -3,12 +3,13 @@ import UserContext from "../context/UserContext";
 function Login() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+  const [phone, setPhone] = useState("");
 
   const { setUser } = useContext(UserContext);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setUser({ username, password });
+    setUser({ username, password, phone });
   };
 
   return (
@@ -19,6 +20,13 @@ function Login() {
         value={username}
         onChange={(e) => setUsername(e.target.value)}
         placeholder="Username"
+      />
+      {"     "}
+      <input
+        type="text"
+        value={phone}
+        onChange={(e) => setPhone(e.target.value)}
+        placeholder="phone"
       />
       {"     "}
       <input
